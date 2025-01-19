@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="profile-card">
+    <div class="profile-header">
+      <img src="Snapchat-490062443-removebg-preview.jpg" alt="Profile Picture" class="profile-img">
+      <h2 class="profile-name">Manish Singh<span class="verified">✔</span></h2>
+      <p class="profile-role">Frontend Developer</p>
+    </div>
+
+    <div class="social">
+        <ul class="social-links">
+        <a href="https://www.linkedin.com/in/manish-singh-916a9b276/"><img src="icons8-linkedin.svg" alt=""></a>
+        <a href="https://github.com/officialmanish03"><img src="icons8-github.svg" alt=""></a>
+        <a href="https://www.instagram.com/officialmanish03/"><img src="icons8-instagram-logo (1).svg" alt=""></a>
+        <a href="https://www.facebook.com/ACTIVEMANISH"><img src="icons8-facebook-logo.svg" alt=""></a>
+        <a href="https://x.com/ManishS79170274"><img src="icons8-x.svg" alt=""></a>
+        <a href="https://forms.gle/drYzUwkwpEzdLz7p6"><img src="icons8-gmail.svg" alt=""></a>
+        </ul>
+    </div>
+    
+    <div class="profile-tabs">
+      <button class="tab-button active" data-tab="about">About me</button>
+      <button class="tab-button" data-tab="skills">Skills</button>
+      <button class="tab-button" data-tab="reviews">Projects</button>
+    </div>
+    <div class="tab-content">
+      <div id="about" class="tab-panel active">
+        <p>I am a frontend developer skilled in HTML, CSS, JavaScript, and React.js, passionate about building creative projects and sharing knowledge. Currently, I am a 2nd-year BTech ECE student at Maharaja Surajmal Institute of Technology.</p> 
+      </div>
+      <div id="skills" class="tab-panel">
+        <ul class="skills">
+          <li>HTML<i class='bx bxl-html5' style='color:#ff7700'  ></i></li>
+          <li>CSS<i class='bx bxl-css3' style='color:#0b00ff'></i></li>
+          <li>JavaScript<i class='bx bxl-javascript' style='color:#f7ff00'  ></i></li>
+          <li>React.js<i class='bx bxl-react' style='color:#00e2ff'  ></i></li>
+        </ul>
+      </div>
+      <div id="reviews" class="tab-panel">
+        <a href="">Swiggy Clone</a>
+        <a href="">Login Form</a>
+        <a href="">Stone Paper Scissor Game</a>
+      </div>
+    </div>
+    <button class="mentoring-btn"><a href="https://forms.gle/drYzUwkwpEzdLz7p6">Hire Me For Work</a></button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
