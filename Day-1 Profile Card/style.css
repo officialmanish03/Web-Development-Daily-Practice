@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: #f9f9f9;
+    --card-bg: #ffffff;
+    --primary-color: #6246ea;
+    --text-color: #333333;
+    --gray: #777777;
+    --border-radius: 1rem;
+    --padding: 1.5rem;
+    --font-size: 1rem;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", serif;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-designecologist-1779487.jpg)no-repeat;
+  }
+  
+  .profile-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: var(--padding);
+    max-width: 24rem;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .profile-header {
+    margin-bottom: var(--padding);
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .profile-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .verified {
+    color: var(--primary-color);
+  }
+  
+  .profile-role {
+    color: var(--gray);
+    font-size: 0.9rem;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--padding);
+  }
+  
+  .stat-value {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .stat-label {
+    color: var(--gray);
+    font-size: 0.9rem;
+  }
+  
+  .profile-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: var(--padding);
+  }
+  
+  .tab-button {
+    flex: 1;
+    background: none;
+    border: none;
+    font-size: var(--font-size);
+    padding: 0.5rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-button.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+  }
+  
+  .tab-content {
+    margin-bottom: var(--padding);
+  }
+  
+  .tab-panel {
+    display: none;
+  }
+  
+  .tab-panel.active {
+    display: block;
+  }
+  
+  .mentoring-btn {
+    background: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+    cursor: pointer;
+  }
+  
+  .mentoring-btn:hover {
+    background: #503bda;
+  }
+
+ .skills li{
+   list-style: none;
+   font-size: 1rem;
+ }
+
+ .skills li i{
+    font-size: 1rem;
+ }
+
+ .mentoring-btn a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+ #reviews a{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: 600;
+ }
