@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <img src="Lock-1.jpg" alt="" class="song-poster" width="80px" height="80px">
+        <h2 class="track-title">Lock-Sidhu Moose Wala</h2>
+        <audio id="audio-player" src="Lock.mp3"></audio>
+        
+        <input type="range" id="seek-bar" value="0">
+        <div class="controls">
+            <button id="prev-btn">⏮</button>
+            <button id="play-btn">▶️</button>
+            <button id="next-btn">⏭</button>
+        </div>
+        <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
